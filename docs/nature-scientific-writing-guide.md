@@ -1,305 +1,305 @@
-# Nature 风格科研写作指南
+# Nature-Style Scientific Writing Guide
 
-本指南合并 `nature-writing` 的起草流程与 `nature-polishing` 的诊断、润色流程，可用于从研究材料搭建论证、完成初稿、修订英文手稿，以及投稿前自查。目标不是堆砌“Nature 腔”，而是让读者快速理解工作为何重要、何处创新、证据是否可信、能否复用，以及结论的边界。
+This guide combines the drafting workflow in `nature-writing` with the diagnostic and polishing workflow in `nature-polishing`. Use it to build an argument from research materials, complete a first draft, revise an English manuscript, and perform a pre-submission check. The goal is not to imitate a “Nature voice”, but to help readers quickly understand why the work matters, what is new, whether the evidence is credible, whether the work can be reused, and where the conclusions stop.
 
-## 1. 先判断任务，再开始写
+## 1. Identify the task before writing
 
-| 任务 | 先做什么 | 主要产出 |
+| Task | First step | Main deliverable |
 | --- | --- | --- |
-| 从结果、图表、笔记或中文材料起草 | 搭建论证与章节结构 | 章节初稿、提纲、证据地图 |
-| 重构已有草稿 | 诊断论文类型、章节职责与段落逻辑 | 重组后的草稿与结构说明 |
-| 润色已有英文 | 先排除结构和证据问题，再处理语言 | 润色文本与修订说明 |
-| 中文转英文 | 转译意图与论证，不照搬中文句序 | 自然、准确且证据强度匹配的英文 |
+| Draft from results, figures, notes, or Chinese materials | Build the argument and section structure | Draft sections, outline, and evidence map |
+| Restructure an existing draft | Diagnose article type, section roles, and paragraph logic | Reorganised draft and structural rationale |
+| Polish existing English | Resolve structural and evidential issues before language | Polished text and revision notes |
+| Translate Chinese into English | Translate the intended argument, not Chinese word order | Natural, accurate English matched to the evidence |
 
-不要在以下问题尚未解决时只做句子润色：论文类型错误、研究缺口不清、主张没有证据、证据没有主张、缺少结论边界、结果与讨论混杂、术语不一致。
+Do not limit revision to sentence polishing while any of these issues remains unresolved: the article type is wrong; the research gap is unclear; claims lack evidence; evidence lacks a claim; conclusion boundaries are missing; results and discussion are conflated; or terminology is inconsistent.
 
-修订优先级始终是：
+The revision order is always:
 
-> 论文类型 → 章节职责 → 段落逻辑 → 主张—证据—边界 → 句子表达
+> Article type → section role → paragraph logic → claim–evidence–boundary → sentence expression
 
-## 2. 写作前的最小准备
+## 2. Minimum preparation before writing
 
-### 2.1 写出一句话论证
+### 2.1 Write a one-sentence argument
 
-用下列句式概括全文：
+Summarise the paper using this form:
 
-> 在【系统或问题】中，我们通过【方法】实现或发现【推进】，由【关键证据】支持；其适用边界是【边界】。
+> In [system or problem], we achieve or discover [advance] through [method], supported by [key evidence]; its scope is limited by [boundary].
 
-如果这句话写不出来，先补足研究论证，而不是开始起草。每个章节、每个段落都应服务于这句话。
+If this sentence cannot be written, complete the research argument before drafting. Every section and paragraph should serve it.
 
-### 2.2 建立术语表
+### 2.2 Create a terminology ledger
 
-在第一次处理材料时，锁定关键术语、缩写、符号、模型名、数据集名、指标、单位及专有名词的标准写法。全文、图注、补充材料和后续修订都使用同一形式；不要在改稿时重新引入变体。
+When first processing the materials, fix the standard forms of key terms, abbreviations, symbols, model names, dataset names, metrics, units, and proper nouns. Use the same form throughout the manuscript, captions, supplementary material, and later revisions; do not reintroduce variants while editing.
 
-### 2.3 明确论文类型
+### 2.3 Specify the article type
 
-| 类型 | 核心读者问题 | 写作重心 |
+| Type | Core reader question | Writing focus |
 | --- | --- | --- |
-| 研究论文 | 发现了什么，意味着什么？ | 现象或机制、证据与意义 |
-| 方法论文 | 方法是否有效、优于现有方案且可复现？ | 验证、优势、适用条件 |
-| 假说/机制论文 | 因果解释是否成立？ | 针对性证据与替代解释 |
-| 算法/系统/器件论文 | 表现是否可靠、比较是否公平、何时失效？ | 基准、公平比较、鲁棒性与失败情形 |
-| 综述 | 已知什么、分歧在哪里、还有什么开放问题？ | 按问题综合文献，而非逐篇罗列 |
+| Research article | What was found, and what does it mean? | Phenomenon or mechanism, evidence, and significance |
+| Methods article | Does the method work, outperform alternatives, and remain reproducible? | Validation, advantages, and conditions of use |
+| Hypothesis/mechanism article | Is the causal explanation justified? | Targeted evidence and alternative explanations |
+| Algorithm, system, or device article | Is performance reliable, comparison fair, and failure understood? | Benchmarks, fair comparisons, robustness, and failures |
+| Review | What is known, disputed, and still open? | Problem-centred synthesis rather than paper-by-paper listing |
 
-#### 各类型的论证链与起草顺序
+#### Argument chains and drafting order by type
 
-- **研究论文**：使用“宽背景 → 精确缺口 → 发现与证据 → 回到广泛意义”的沙漏结构。优先从结果叙事开始，通常按“结果 → 引言/结论 → 标题 → 讨论 → 方法 → 摘要”推进，避免引言先写得过满而反过来限制结果叙事。
-- **方法论文**：先固定方法定义、输入输出、假设和评估协议，再写验证。结果必须明确回答：它是否更可靠、更快、资源需求更低或更容易复现；比较是否在同一数据划分、预处理和预算下公平进行。
-- **假说/机制论文**：在引言中明确写出假说，并预先说明什么观察会推翻它。区分“支持假说的证据”与“与假说一致但不能排除替代解释的证据”；相关性不足以支持 `causes`、`drives` 等因果动词。
-- **算法、系统或器件论文**：将“系统是什么”“为何有效”“效果如何”分开叙述。每项性能声明都应标注数据集、指标、基线和实验条件；讨论必须点明实验揭示的失败模式。
-- **综述**：先界定子领域、时间窗口和纳入标准。按争议、证据和问题组织，而非按论文罗列；可以提出判断，但应展示判断依据，最后为读者留下可用的领域地图。
+- **Research article:** Use an hourglass structure: broad context → precise gap → finding and evidence → broad significance. Start with the results narrative and normally proceed as results → introduction/conclusion → title → discussion → methods → abstract, so an overdeveloped introduction does not constrain the results narrative.
+- **Methods article:** Fix the method definition, inputs and outputs, assumptions, and evaluation protocol before writing validation. Results must state whether the method is more reliable, faster, less resource-intensive, or easier to reproduce, and whether comparisons use the same data split, preprocessing, and budget.
+- **Hypothesis/mechanism article:** State the hypothesis explicitly in the introduction and specify in advance what observation would falsify it. Distinguish evidence supporting the hypothesis from evidence consistent with it but unable to rule out alternatives; correlation alone does not justify causal verbs such as `causes` or `drives`.
+- **Algorithm, system, or device article:** Separate what the system is, why it works, and how well it performs. Every performance claim should identify the dataset, metric, baseline, and experimental conditions; the discussion must identify experimentally revealed failure modes.
+- **Review:** Define the subfield, time window, and inclusion criteria first. Organise around disputes, evidence, and questions rather than papers. Judgements are acceptable when their basis is shown, and the conclusion should leave readers with a usable map of the field.
 
-### 2.4 定义读者与投稿场景
+### 2.4 Define the readers and submission context
 
-读者通常依次判断：
+Readers usually ask, in order:
 
-1. **相关性**：这与我有什么关系？
-2. **新颖性**：新在哪里？
-3. **可信度**：证据是否足以让我相信？
-4. **可复用性**：我能否使用、检验或扩展它？
-5. **意义与边界**：它意味着什么，何时不成立？
+1. **Relevance:** Why does this matter to me?
+2. **Novelty:** What is new?
+3. **Credibility:** Is the evidence sufficient?
+4. **Reusability:** Can I use, test, or extend it?
+5. **Significance and boundary:** What does it mean, and when does it not hold?
 
-面向广泛读者时，先交代相关性与新颖性，再进入技术细节。明确目标期刊、主要受众、字数限制及最需要突出的结果。
+For a broad audience, establish relevance and novelty before technical detail. Identify the target journal, primary audience, word limit, and results that need emphasis.
 
-## 3. 从材料到初稿的工作流
+## 3. Workflow from materials to first draft
 
-1. **收集事实**：整理 claims、图表、结果、对照、消融、统计量、局限和已有文献；区分已证实事实、合理推断与尚缺信息。
-2. **确定论证**：完成一句话论证，明确最能支撑它的结果与不可逾越的边界。
-3. **规划章节和段落**：每段只能承担一个职责：背景、缺口、方法、结果、比较、机制、意义或局限。一个段落承担两个职责时，应拆分。
-4. **进行确认门对齐**：完整章节或大幅重构前，先确认一句话论证、论文类型/章节/期刊/字数、段落地图、术语账本、主要读者、推断出的关键假设，以及至多 2–3 个高影响问题。若主张、证据和边界已明确，只需确认一句话论证即可；若仅风格不符，应索取作者自己的短样本，校准句长、语气、对冲、人称和连接词，而不复用其事实内容。
-5. **先搭证据阶梯**：对每个主要主张，确定其直接证据、对照或基线、必要的消融/压力测试，以及仍然缺失的证据。
-6. **由证据向外起草**：让主张靠近支持它的数据；不要在章节开头堆叠结论，再把证据留到末尾。
-7. **校准证据强度**：直接而充分的证据可支持 `show` 或 `demonstrate`；趋势或间接证据宜用 `suggest` 或 `indicate`；未经验证的机制应使用 `may` 或 `could`。
-8. **检查段落流动**：首句给出主题或主张，后续句子与前句有明确关系，如因果、比较、限制或举例。
-9. **带着说明交付**：保留假设、缺失输入和需补证据的位置，避免用流畅的文字掩盖证据空白。
-10. **定向修订**：收到反馈后只修改被指出的主张或段落；如必须重排结构，先说明原因。原始前提错误时，回到第 2 步重新对齐。
+1. **Collect facts:** Organise claims, figures, results, controls, ablations, statistics, limitations, and literature. Distinguish established facts, reasonable inferences, and missing information.
+2. **Set the argument:** Complete the one-sentence argument, identifying the results that best support it and its non-negotiable boundaries.
+3. **Plan sections and paragraphs:** Each paragraph has one role only: background, gap, method, result, comparison, mechanism, significance, or limitation. Split paragraphs that serve two roles.
+4. **Align at a confirmation gate:** Before a full section or major restructuring, confirm the one-sentence argument; article type, sections, journal, and length; paragraph map; terminology ledger; primary readers; inferred key assumptions; and at most two or three high-impact questions. When claims, evidence, and boundaries are clear, confirm only the one-sentence argument. When the issue is solely stylistic, request a short sample written by the author and calibrate sentence length, tone, hedging, person, and connectives without reusing factual content.
+5. **Build the evidence ladder first:** For each major claim, identify direct evidence, controls or baselines, necessary ablations or stress tests, and evidence still missing.
+6. **Draft outwards from evidence:** Place claims close to their supporting data; do not pile conclusions at the start of a section and leave evidence to its end.
+7. **Calibrate evidential strength:** Direct, sufficient evidence supports `show` or `demonstrate`; trends or indirect evidence call for `suggest` or `indicate`; unverified mechanisms require `may` or `could`.
+8. **Check paragraph flow:** The first sentence gives a topic or claim; later sentences must relate clearly through causation, comparison, limitation, or example.
+9. **Deliver with notes:** Preserve assumptions, missing inputs, and locations requiring more evidence. Do not conceal evidential gaps with fluent prose.
+10. **Revise selectively:** After feedback, change only the identified claim or paragraph. If structural reordering is necessary, explain why. Return to step 2 when underlying premises are wrong.
 
-## 4. 各章节的职责
+## 4. Responsibilities of each section
 
-### 标题
+### Title
 
-- 用最少的词说明研究对象、核心推进或关键关系。
-- 避免空泛宣传词，如 `novel`、`first`、`unprecedented`，除非可被严格证明。
-- 标题应与摘要、图表和主结论使用一致术语。
-- 可按研究卖点选为名词短语（常用于方法）、陈述句（强调发现）、“系统名：功能”的冒号形式，或动名词/问句（常用于基准或视角文章）。通常不放数字或完整结论，数字留给摘要和结果。
+- State the research object, central advance, or key relation in the fewest words.
+- Avoid generic promotional terms such as `novel`, `first`, and `unprecedented` unless they can be rigorously supported.
+- Use terminology consistent with the abstract, figures, and main conclusion.
+- Choose a noun phrase (often methods), declarative statement (findings), “system name: function” form, or gerund/question form (often benchmarks or perspective pieces) according to the paper’s selling point. Usually reserve numbers and full conclusions for the abstract and results.
 
-### 摘要
+### Abstract
 
-按“背景 → 缺口 → 方法/策略 → 关键结果 → 意义 → 边界”组织。背景只保留理解问题所需的信息；关键结果应可追溯到具体数据；意义不能超出证据范围。标题和摘要宜在主论证和结果叙事稳定后定稿。
+Organise as background → gap → method/strategy → key result → significance → boundary. Retain only background needed to understand the problem; key results must trace to specific data; significance must not exceed the evidence. Finalise the title and abstract after the main argument and results narrative are stable.
 
-起草前回答四个问题：未被成熟解决的技术问题是什么、技术贡献是什么、其为何可行、带来了什么技术优势或新洞见。然后选用匹配的骨架：
+Before drafting, answer four questions: What technical problem remains unsolved? What is the technical contribution? Why is it feasible? What technical advantage or insight does it provide? Then choose a suitable framework:
 
-- **挑战 → 贡献**：任务 → 既有方法的技术挑战 → 1–2 句贡献 → 优势 → 实验总结。
-- **挑战 → 洞见 → 贡献**：任务 → 挑战 → 核心洞见 → 实现洞见的贡献 → 优势 → 实验。
-- **多贡献**：任务 →（可选的对比）→ 各贡献及其优势 → 实验总结。
+- **Challenge → contribution:** task → technical challenge in existing methods → one or two contribution sentences → advantages → experimental summary.
+- **Challenge → insight → contribution:** task → challenge → core insight → contribution implementing that insight → advantages → experiments.
+- **Multiple contributions:** task → optional comparison → each contribution and its advantage → experimental summary.
 
-完成后检查：读者能否一次读出任务、挑战、贡献和结果；每项主要声明是否有实验支持；技术名称是否自洽；每句是否只承载必要的信息。
+Afterward, check whether readers can identify the task, challenge, contribution, and result in one pass; whether every major claim has experimental support; whether technical names are internally consistent; and whether every sentence carries only necessary information.
 
-#### Nature 系列的宽受众 Summary Paragraph
+#### Broad-audience summary paragraph for Nature journals
 
-对于需要特别面向跨学科读者的摘要段，按七步漏斗组织：
+For a summary paragraph aimed especially at interdisciplinary readers, use a seven-step funnel:
 
-1. 宽领域引入（1–2 句）；
-2. 最少必要背景（2–3 句）；
-3. 一个明确的未知问题；
-4. 用 `Here we show/demonstrate` 陈述主结果；
-5. 解释结果直接揭示的含义；
-6. 给出由证据锚定的广泛意义；
-7. 视需要加入宏观展望。
+1. Broad field introduction (one or two sentences);
+2. Minimum necessary background (two or three sentences);
+3. One explicit unknown;
+4. The main result using `Here we show/demonstrate`;
+5. The direct implication of that result;
+6. Broad significance anchored in evidence;
+7. A high-level outlook, when needed.
 
-没有展望时通常约 190 词，含展望时约 250 词。避免开头即堆砌专有名词、缺失明确缺口，或过早、过晚才交代主结果。不要只列数据而不作解释，也不要在结尾夸大影响。
+Without an outlook this is usually about 190 words; with one, about 250 words. Avoid opening with dense proper nouns, omitting a clear gap, revealing the main result too early or too late, listing data without interpretation, or overstating impact at the end.
 
-### 引言
+### Introduction
 
-从领域尺度逐步收束：
+Narrow progressively from the field scale:
 
-1. 为什么该问题重要；
-2. 当前瓶颈是什么；
-3. 既有方案做到了什么、仍缺什么；
-4. 本文解决的具体缺口；
-5. 本文的做法、主要结果和贡献边界。
+1. Why the problem matters;
+2. The current bottleneck;
+3. What existing approaches achieve and still lack;
+4. The specific gap addressed here;
+5. This paper’s approach, main results, and contribution boundary.
 
-不要让方法细节淹没新颖性，也不要用贬低前人来制造创新。
+Do not let method detail obscure novelty, and do not create novelty by disparaging previous work.
 
-引言应先**逆向推理**：确定技术挑战、贡献和优势，再决定如何把读者带到该挑战。随后顺向起草为“任务 → 技术挑战 → 贡献 → 优势/洞见 → 证据”。
+First reason **backwards**: identify the technical challenge, contribution, and advantage, then decide how to lead readers to the challenge. Draft forwards as task → technical challenge → contribution → advantage/insight → evidence.
 
-任务冷门时，先定义任务再给应用；任务已知时，可由应用切入；有特定场景时，从通用任务收束。若失败案例是核心卖点，可直接从挑战切入。
+For an unfamiliar task, define it before giving applications; for a known task, begin with an application; for a specific scenario, narrow from the general task. If failures are the main selling point, begin directly with the challenge.
 
-不要先介绍朴素方案再说“我们做得更好”，这会削弱问题的必要性。也不要只给抽象洞见而不说具体流程，否则会形成“创新幻觉”。
+Do not introduce a naïve approach only to say that the present work performs better, because that weakens the necessity of the problem. Do not offer an abstract insight without a concrete workflow, which creates an illusion of innovation.
 
-### 方法
+### Methods
 
-说明每个模块的动机、设计、正向流程和技术优势，使读者能够判断可复现性与适用范围。方法论文还应清楚呈现验证方案、与替代方法的比较条件及失败模式。
+Explain each module’s motivation, design, forward process, and technical advantage so readers can judge reproducibility and scope. Methods articles must also clearly present validation, conditions for comparison with alternatives, and failure modes.
 
-推荐流程是：先画完整流程图 → 据此规划子章节 → 为每个子章节写出动机、设计、优势 → 先写具体设计 → 再补动机与优势。每个模块必须回答：
+Recommended sequence: draw the complete workflow → plan subsections from it → state motivation, design, and advantage for each subsection → write the concrete design first → add motivation and advantage. Every module must answer:
 
-1. **动机**：为什么需要它，显而易见的替代方案为何不够；
-2. **设计/机制**：输入是什么，经过哪些步骤，输出是什么；
-3. **技术优势**：与替代方案相比具体改善了什么，最好能对应可观察或可量化行为。
+1. **Motivation:** Why is it needed, and why is the obvious alternative inadequate?
+2. **Design/mechanism:** What are the inputs, processing steps, and outputs?
+3. **Technical advantage:** What specifically improves over alternatives, preferably in observable or measurable behaviour?
 
-方法开头的 overview 可用“任务设定 → 核心贡献 → 框架图指针 → 各小节内容”四步。自查三个层级：读者能否复述整体逻辑；每段首句是否说明段落任务；每句是否让读者知道其存在的理由。
+An opening overview can follow task setting → core contribution → framework-figure pointer → subsection contents. Check three levels: can readers restate the overall logic; does each paragraph’s first sentence state its task; and does every sentence make clear why it exists?
 
-### 结果与实验
+### Results and experiments
 
-结果不是实验流水账，而是证据阶梯。每个小节回答一个问题：主结果是什么、与什么比较、如何排除替代解释、何种条件下成立。算法或系统工作需说明基线、数据划分、指标、公平比较、消融、鲁棒性及失效情形。
+Results are an evidence ladder, not an experimental log. Each subsection answers one question: What is the main result? What is it compared with? How are alternative explanations excluded? Under what conditions does it hold? Algorithmic or systems work must report baselines, data splits, metrics, fair comparisons, ablations, robustness, and failure cases.
 
-实验至少应依次回答三题：
+Experiments should answer at least:
 
-1. 是否优于强基线？确保使用相同的数据划分、预处理和评估协议；
-2. 哪些模块或设计选择带来收益？对每个关键模块使用移除、替换或禁用的消融；
-3. 在更难情形下能泛化多远？用复杂场景、分布外输入或更严格约束进行压力测试，并同时报告增益和失败模式。
+1. Does the approach outperform strong baselines under identical data splits, preprocessing, and evaluation protocols?
+2. Which modules or design choices produce the gains? Use removal, replacement, or disabling ablations for every key module.
+3. How far does it generalise under harder conditions? Stress-test it with complex scenarios, out-of-distribution inputs, or stricter constraints, reporting both gains and failures.
 
-消融包应包含一个覆盖主要贡献的核心表、针对设计选择的小型消融，以及重要消融的定性可视化。表格遵循“一表一信息”：标题置于表上方，不使用竖线、双线或密集横线；指标标明方向和单位，数字精度一致，文字列左对齐，必要时用分组表头；以克制方式标出最优和次优结果。
+An ablation package should include one core table spanning the main contributions, small ablations for design choices, and qualitative visualisations for important ablations. Follow one table, one message: place the title above the table; avoid vertical rules, double rules, and dense horizontal rules; specify metric directions and units; use consistent precision; left-align text columns; group headers when needed; and mark best and second-best values sparingly.
 
-### 讨论与结论
+### Discussion and conclusion
 
-讨论解释结果的意义、与既有工作的关系、局限和可验证的后续方向；不要重复结果。结论收束贡献、最强证据、潜在影响和边界，避免从局部结果跳到普适结论。
+The discussion explains the meaning of results, relation to prior work, limitations, and testable next steps; it does not repeat results. The conclusion consolidates contributions, strongest evidence, potential impact, and boundaries, without leaping from local results to universal conclusions.
 
-### 相关工作与综述
+### Related work and reviews
 
-围绕主题、争议、证据类型和开放问题组织，而不是逐篇摘要。清楚标出先前工作、当前工作和不同解释分别属于谁。
+Organise around themes, disputes, evidence types, and open questions rather than paper-by-paper summaries. Clearly identify what belongs to prior work, the present work, and competing interpretations.
 
-先列出直接竞争者和最新强基线，再按 2–4 个技术主题分组：任务的主流方法、最接近核心思路的方法、以及必要的辅助技术。每段依次完成“定义主题范围 → 概括代表性范式 → 指出与当前挑战相关的局限 → 自然引向本文差异”。不要把相关工作变成按年份排列的文献清单。
+List direct competitors and the latest strong baselines first, then group work into two to four technical themes: mainstream task approaches, approaches closest to the central idea, and necessary supporting technologies. Each paragraph should define the theme, summarise representative paradigms, identify limitations relevant to the present challenge, and lead naturally to the present difference. Do not turn related work into a chronological bibliography.
 
-章节初稿完成后，先确认每一节都履行了上述独立职责，再进入段落和句子层面的修订。
+After section drafts are complete, confirm that each fulfils its distinct responsibility before revising paragraphs and sentences.
 
-## 5. 段落与句子的修订方法
+## 5. Revising paragraphs and sentences
 
-### 5.1 段落检查
+### 5.1 Paragraph checks
 
-对每段依次问：
+Ask of each paragraph:
 
-- 这段唯一的任务是什么？
-- 首句是否直接给出主题或主张？
-- 每个后续句是否通过因果、比较、限定或举例推进首句？
-- 主张后是否紧跟相应证据？
-- 是否混入了应属于另一段或另一章节的内容？
+- What is its single task?
+- Does the first sentence state the topic or claim directly?
+- Does every later sentence advance it through causation, comparison, qualification, or example?
+- Is relevant evidence placed immediately after the claim?
+- Does it include content that belongs in another paragraph or section?
 
-必要时先做反向提纲：为每段写一句“这段在做什么”；相邻句子或段落职责重复、跳跃或缺失时，再进行重排。
+When needed, make a reverse outline: write one sentence explaining what each paragraph does, then reorder where adjacent sentences or paragraphs repeat, jump, or leave a gap.
 
-完整的反向提纲如下：
+A complete reverse outline:
 
-1. 写出章节论点；
-2. 写出每段主题句；
-3. 在每段下列出证据或解释；
-4. 检查主题句是否共同支持章节论点；
-5. 检查证据是否支持主题句；
-6. 重写、移动或删除无法映射的内容。
+1. State the section argument;
+2. State every paragraph’s topic sentence;
+3. List evidence or explanation under each paragraph;
+4. Check whether the topic sentences jointly support the section argument;
+5. Check whether the evidence supports each topic sentence;
+6. Rewrite, move, or remove content that cannot be mapped.
 
-读者测试还包括：术语是否在无隐藏上下文时可理解；每句是否通过因果、对比、后果、细化或例证连接到前句。
+Also test whether terminology is understandable without hidden context and whether every sentence connects to the preceding one through cause, contrast, consequence, elaboration, or illustration.
 
-### 5.2 语言检查
+### 5.2 Language checks
 
-- 句子短、明确、可读；删除不增加信息的套话和重复限定。
-- 用精确名词和动词代替抽象、膨胀或泛化表达。
-- 术语、缩写、时态、单位、符号和图号前后一致。
-- 英文转写时保留逻辑关系和证据强度，不逐字复制中文语序。
-- 避免绝对化词汇：`always`、`never`、`complete`、`comprehensive`、`unique`、`first`。无法证明时删除或改为有范围的表述。
+- Keep sentences short, explicit, and readable; remove stock phrases and redundant qualifiers that add no information.
+- Prefer precise nouns and verbs to abstract, inflated, or generic wording.
+- Keep terminology, abbreviations, tense, units, symbols, and figure numbers consistent.
+- In English translation, preserve logical relations and evidential strength rather than copying Chinese word order.
+- Avoid absolute terms such as `always`, `never`, `complete`, `comprehensive`, `unique`, and `first`. Remove them or qualify their scope when they cannot be demonstrated.
 
-更细的 Nature 取向规则：
+More detailed Nature-oriented rules:
 
-- 通常将句子控制在 10–30 个词，一个句子不承载多个主张；尤其检查段末冗长句。
-- 避免 em dash、缩略形式（如 `don't`）和修辞性问句；不要用逗号连接两个独立句。
-- 默认采用英式拼写。单数可数名词首次出现使用 `a/an`，再次特指使用 `the`；泛指复数通常不用冠词。
-- 测量值用阿拉伯数字，数字与单位之间留空格（如 `25 cm`）；范围使用 en dash。
-- 图注通常不超过 300 词，标题通常不超过 75 个字符；不同期刊的要求优先于这些经验值。
+- Usually keep sentences to 10–30 words and avoid placing multiple claims in one sentence; inspect long sentence endings especially carefully.
+- Avoid em dashes, contractions (such as `don't`), and rhetorical questions; do not join two independent clauses with a comma.
+- Use British spelling by default. Use `a/an` for a singular countable noun on first mention, `the` for a subsequent specific mention, and usually no article for generic plurals.
+- Use Arabic numerals for measurements, with a space between number and unit (for example, `25 cm`); use en dashes for ranges.
+- Figure legends are usually no longer than 300 words and titles no longer than 75 characters; journal instructions take precedence.
 
-#### 中文材料转英文的五步法
+#### Five steps for translating Chinese materials into English
 
-1. 先用英文列出核心命题；
-2. 显式重建对比、因果、推论和限制；
-3. 核查术语、因果强度和对冲强度；
-4. 锁定模型名、数据集名和技术术语，不为“文采”随意变换；
-5. 最后才应用英文句法与段落规则。
+1. List the core propositions in English first;
+2. Reconstruct contrasts, causation, inferences, and limitations explicitly;
+3. Verify terminology and causal and hedging strength;
+4. Lock model names, dataset names, and technical terms rather than varying them for style;
+5. Apply English sentence and paragraph conventions only at the end.
 
-常见修复包括：根据事实状态补足过去时或现在时；为可数名词补足单复数；将层层“的”修饰拆成关系从句或独立句；把“关于 X”式主题句改为主谓宾；变换“本文/我们”开头；为“显著提高”补足基线；拆开逗号串联的短句。
+Common repairs include selecting past or present tense from factual status; correcting countable-noun number; turning nested modifiers into relative clauses or separate sentences; changing “about X” topic sentences into subject–verb–object sentences; varying repetitive “this paper/we” openings; supplying a baseline for “significantly improved”; and splitting comma-spliced short sentences.
 
-#### 证据强度与连接表达
+#### Evidential strength and linking expressions
 
-| 目的 | 可用表达 |
+| Purpose | Suitable expressions |
 | --- | --- |
-| 强直接证据 | `show`, `demonstrate`, `establish`, `reveal`, `identify` |
-| 有限或间接证据 | `suggest`, `indicate`, `are consistent with`, `point to` |
-| 推测性解释 | `may reflect`, `could arise from`, `appears to`, `might be explained by` |
-| 对比 | `however`, `by contrast`, `nevertheless`, `whereas` |
-| 因果或结果 | `therefore`, `thus`, `consequently`, `as a result` |
-| 限定 | `notably`, `in part`, `approximately`, `at least in this cohort` |
+| Strong direct evidence | `show`, `demonstrate`, `establish`, `reveal`, `identify` |
+| Limited or indirect evidence | `suggest`, `indicate`, `are consistent with`, `point to` |
+| Speculative explanation | `may reflect`, `could arise from`, `appears to`, `might be explained by` |
+| Contrast | `however`, `by contrast`, `nevertheless`, `whereas` |
+| Causation or result | `therefore`, `thus`, `consequently`, `as a result` |
+| Qualification | `notably`, `in part`, `approximately`, `at least in this cohort` |
 
-避免反复使用 `This suggests`；可改用重述名词（`Such heterogeneity ...`）、有定名词短语（`The resulting gradient ...`）、总结性分词结构（`Taken together, ...`），或在逻辑已清楚时不用连接词。面向 Nature Communications 的经验是：结果句以肯定句和数字为主，对冲集中在意义句；没有统计检验支撑时，不要把 `significantly` 当作泛化的强调词。
+Avoid repeating `This suggests`. Instead, use a restated noun (`Such heterogeneity ...`), a definite noun phrase (`The resulting gradient ...`), a summarising participial construction (`Taken together, ...`), or no connective when the logic is already clear. A useful convention for *Nature Communications* is to make result sentences affirmative and numerical, while concentrating hedging in significance sentences; do not use `significantly` as generic emphasis without statistical support.
 
-## 6. 主张—证据—边界地图
+## 6. Claim–evidence–boundary map
 
-在起草和投稿前，为每个主要主张填写：
+For every major claim during drafting and before submission, complete:
 
-| 主张 | 支持证据 | 状态 | 边界/限制 |
+| Claim | Supporting evidence | Status | Boundary/limitation |
 | --- | --- | --- | --- |
-| 主要发现或性能提升 | 对应图表、统计、比较或复现实验 | 已支持 / 需补证据 / 推断 | 样本、条件、比较范围或未验证机制 |
+| Main finding or performance gain | Relevant figure, statistic, comparison, or replication experiment | Supported / evidence needed / inference | Sample, condition, comparison scope, or unverified mechanism |
 
-任何“需补证据”或“推断”均应在文本中降级、显式限定，或标注为待补内容；不要以连贯的语言把它伪装成已证实结论。
+Any item marked “evidence needed” or “inference” must be downgraded, explicitly qualified, or marked as pending. Never disguise it as an established conclusion through coherent prose.
 
-## 7. 伦理、引用与 AI 使用边界
+## 7. Ethics, citations, and boundaries of AI use
 
-- 承认研究建立在何种既有思想、数据、方法和解释之上，并清楚归属。
-- 引用自己实际阅读并核实的原始来源：原文的数据、方法和结论引用原始论文；他人对该论文的解释或评论引用相应的评论来源。
-- 对他人的观点、数据、方法、措辞、结构、图像和独特解释给予适当引用；网络材料并不因公开可见而自动属于公共领域。
-- AI 可以帮助改进语法、清晰度、简洁性、语气、提纲、翻译和标题选项，但作者必须逐项核实。
-- 不要将未经核实的 AI 生成引用、数据、主张或图像纳入稿件；不要把未公开手稿、敏感数据或同行评审材料上传到公开模型。
-- AI 不能替代作者对核心论证、证据、方法解释和最终责任的承担。
+- Acknowledge the prior ideas, data, methods, and explanations on which the research builds, with clear attribution.
+- Cite original sources that you have actually read and verified: cite the original paper for its data, methods, and conclusions, and cite the relevant commentary for others’ interpretations or comments.
+- Properly cite others’ ideas, data, methods, wording, structure, images, and distinctive explanations; public availability online does not automatically place material in the public domain.
+- AI may improve grammar, clarity, concision, tone, outlines, translation, and title options, but authors must verify every item.
+- Do not include unverified AI-generated citations, data, claims, or images in a manuscript, and do not upload unpublished manuscripts, sensitive data, or peer-review materials to public models.
+- AI cannot replace authors’ responsibility for the central argument, evidence, methodological explanation, and final work.
 
-引用还承担定位功能：用 **support** 支持前提，用 **borrow** 标示采用的方法、框架或协议，用 **contrast** 说明不同结果、设定或解释，用 **reuse/adaptation** 标明使用的材料、数据、代码或图像。公平定位前人可采用“既有工作已经建立了什么，但在何种场景仍不明确”的结构，而非暗示前人毫无价值。
+Citations also position work: use **support** for premises, **borrow** for adopted methods, frameworks, or protocols, **contrast** for differing results, settings, or interpretations, and **reuse/adaptation** for materials, data, code, or images used. Position prior work fairly with a structure such as “previous work has established X, but Y remains unclear under Z,” rather than implying that it has no value.
 
-## 8. 投稿前检查清单
+## 8. Pre-submission checklist
 
-- [ ] 一句话论证包含问题、推进、方法、证据和边界。
-- [ ] 论文类型与章节架构匹配。
-- [ ] 读者能依次找到相关性、新颖性、可信度、可复用性、意义和边界。
-- [ ] 每段只有一个任务，首句表达主题或主张。
-- [ ] 每个主要主张有相邻且足够的证据。
-- [ ] 动词强度与证据强度匹配。
-- [ ] 结果与讨论没有混杂；讨论未重复罗列结果。
-- [ ] 没有无证据的“首次”“唯一”“全面”“普适”等表述。
-- [ ] 术语、缩写、符号、单位、图表编号和引用一致且正确。
-- [ ] 引用准确归属，图表、数据和文字均已核查来源。
-- [ ] 已检查语法、拼写、排版和可读性。
+- [ ] The one-sentence argument includes problem, advance, method, evidence, and boundary.
+- [ ] The article type matches the section architecture.
+- [ ] Readers can find relevance, novelty, credibility, reusability, significance, and boundaries in sequence.
+- [ ] Every paragraph has one task, and its first sentence states a topic or claim.
+- [ ] Every major claim has adjacent, sufficient evidence.
+- [ ] Verb strength matches evidential strength.
+- [ ] Results and discussion are distinct, and discussion does not list results again.
+- [ ] There are no unsupported claims of being first, unique, comprehensive, or universal.
+- [ ] Terminology, abbreviations, symbols, units, figure and table numbers, and citations are consistent and correct.
+- [ ] Citations attribute accurately, and sources for figures, data, and wording have been checked.
+- [ ] Grammar, spelling, formatting, and readability have been checked.
 
-### 对抗性自审
+### Adversarial self-review
 
-以审稿人视角排查五类拒稿风险：贡献是否只是常见失败案例或已充分探索的技术；方法和动机是否足以复现；提升是否具有实质意义而非仅统计显著；消融、强基线和难数据是否齐全；实验设置是否现实、方法是否存在隐藏缺陷、净收益是否为正。把每项风险写成可回答的问题，并为每个答案指向稿件中的证据；没有答案的地方优先补实验、补限制或降低主张。
+From a reviewer’s perspective, examine five rejection risks: whether the contribution is merely a common failure case or an already well-explored technique; whether method and motivation enable reproduction; whether improvement is substantively meaningful rather than merely statistically significant; whether ablations, strong baselines, and difficult data are complete; and whether the experimental setting is realistic, the method has hidden flaws, and net benefit is positive. Turn every risk into an answerable question and point each answer to evidence in the manuscript. Where no answer exists, prioritise more experiments, clearer limitations, or weaker claims.
 
-## 9. 期刊与投稿规格
+## 9. Journal and submission specifications
 
-投稿前以目标期刊最新 author instructions 为准；下列信息用于早期规划，而非替代官方要求。
+Before submission, follow the target journal’s current author instructions. The information below supports early planning and does not replace official requirements.
 
-| 场景 | 规划重点 |
+| Context | Planning focus |
 | --- | --- |
-| Nature 系列 | 优先删减而非把句子压得难读；首句对非专家有意义；通常使用无结构摘要；方法多置于文末；避免 em dash；文章引用数常受严格控制。 |
-| Nature Communications | 主文及方法通常约 5,000 词；早期预留约 700 词引言、2,000 词结果、800 词讨论、1,500 词方法；摘要约 150 词、无引用且优先写发现；图和表总数通常不超过 10，额外材料进入补充信息；提前准备数据与代码可用性声明、Reporting Summary 和 cover letter。 |
-| 通用期刊 | 在起草前确认格式、字数、引用风格、受众范围，以及是否需要 significance/author summary、图形摘要、亮点和关键词。 |
+| Nature journals | Prefer cutting content to compressing sentences into unreadability; make the first sentence meaningful to non-specialists; use an unstructured abstract where customary; place methods near the end; avoid em dashes; and expect strict reference limits. |
+| *Nature Communications* | Main text and methods are commonly about 5,000 words; reserve roughly 700 words for the introduction, 2,000 for results, 800 for discussion, and 1,500 for methods early on; use an approximately 150-word, citation-free abstract focused on findings; normally keep figures and tables to 10 in total and move extras to supplementary information; prepare data and code availability statements, the Reporting Summary, and cover letter early. |
+| General journals | Before drafting, confirm formatting, word limits, citation style, audience scope, and whether a significance/author summary, graphical abstract, highlights, or keywords are required. |
 
-## 10. LaTeX 排版诊断与修复（可选）
+## 10. LaTeX layout diagnosis and repair (optional)
 
-排版问题必须按“修改 → 编译 → 阅读日志 → 渲染页面图像 → 目视检查 → 迭代”处理，不能只看 `.tex` 源文件。日志重点检查 `Float too large`、`Overfull \vbox` 和未解析引用；将 PDF 渲染为页面图并制作 contact sheet，快速定位空页、孤立标题和不协调的图。
+Address layout problems through modify → compile → read logs → render page images → inspect visually → iterate; do not inspect only the `.tex` source. In logs, prioritise `Float too large`, `Overfull \vbox`, and unresolved citations. Render the PDF to page images and make a contact sheet to find blank pages, orphaned headings, and unbalanced figures quickly.
 
-- 浮动页过松时，调整浮动体顶部、间距和底部胶水，使内容顶对齐。
-- 宽而矮的图不能填满页面时，应从源文件重绘为更高的比例（常见目标约为 1.9:1–2.2:1），而不是旋转页面。
-- 避免需要读者转页阅读的横向主文图；多面板宽图优先纵向堆叠。
-- 浮动体积压导致章节标题孤立时，可用 `\clearpage` 与 `[H]` 把标题和图作为单元处理；但 `[H]` 仅在空间足够时安全。
-- `placeins` 会影响整体浮动行为，应与图尺寸和位置共同测试，而不是作为万能修复。
+- When float pages are too loose, adjust the top, spacing, and bottom glue so content aligns to the top.
+- When wide, short figures cannot fill a page, redraw them from source with a taller aspect ratio (commonly about 1.9:1–2.2:1) instead of rotating the page.
+- Avoid landscape main-text figures that force readers to turn the page; stack wide multi-panel figures vertically where possible.
+- When float congestion isolates a section heading, use `\clearpage` and `[H]` to treat the heading and figure as a unit, but use `[H]` only when sufficient space is available.
+- `placeins` affects global float behaviour; test it with figure dimensions and placement instead of treating it as a universal fix.
 
-## 11. 推荐交付格式
+## 11. Recommended delivery format
 
-### 起草或重构
+### Drafting or restructuring
 
-1. **Draft**：所需英文草稿。
-2. **Section outline**：完整章节给出 3–7 条段落提纲。
-3. **Assumptions or missing inputs**：仅列影响论证的假设或缺失信息。
-4. **Claim-evidence map**：列出主要主张及其证据状态。
-5. **Why this structure**：简述结构选择。
+1. **Draft:** The requested English draft.
+2. **Section outline:** Three to seven paragraph-level bullets for a complete section.
+3. **Assumptions or missing inputs:** Only assumptions or missing information affecting the argument.
+4. **Claim–evidence map:** Major claims and their evidential status.
+5. **Why this structure:** A brief explanation of the structural choice.
 
-### 润色
+### Polishing
 
-1. **Polished text**：直接给出润色后的文本。
-2. **Revision notes**：说明主要结构和表达调整；无法在不编造内容的前提下修复的问题也应在此说明。
-3. 如需逐句比较，按 **Original / Polished / Why changed** 呈现。
+1. **Polished text:** Provide the polished text directly.
+2. **Revision notes:** Explain major structural and expression changes, including issues that cannot be fixed without inventing content.
+3. When sentence-by-sentence comparison is needed, present **Original / Polished / Why changed**.
 
-这份指南用于提升清晰度、论证和表达，不应用于编造科学内容、弱化不确定性或逃避作者责任。
+This guide is intended to improve clarity, argument, and expression. It must not be used to fabricate scientific content, minimise uncertainty, or evade author responsibility.
